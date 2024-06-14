@@ -2,26 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
-    font-family: "Luckiest Guy";
+
     display: flex;
     flex-direction: column;
+    background-color: #FFFFFF;
 }
 
 header {
-    width: 100%;
-    height: 459px;
+    width: 100vw;
+    height: 45vh;
     position: relative;
     text-align: center;
 
 }
 
 .header-content {
+    width: 60%;
+    align-items: center;
+
     position: absolute;
     top: 1%;
     left: 2%;
 
-    width: 757px;
-    height: 270px;
     margin: 94px 261px 24px;
 
     display: flex;
@@ -30,7 +32,7 @@ header {
 }
 
 .header-content h1 {
-    margin-left: 30%;
+
     width: 313px;
     height: 112px;
 
@@ -66,14 +68,15 @@ header img {
     height: 44px;
     gap: 16px;
     display: flex;
-    margin-left: 17%;       
+    margin-left: 17%;
 }
+
 .botao-1 {
     width: 205px;
     height: 44px;
-   
+
     border-radius: 28px;
-    border: none;  
+    border: none;
     background: #FFFFFF;
     color: #23272A;
 }
@@ -81,21 +84,130 @@ header img {
 .botao-2 {
     width: 281px;
     height: 44px;
-    
+
     border-radius: 28px;
     border: none;
     background: #23272A;
     color: #FFFFFF;
+}
+
+.botao-1,
+.botao-2 {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+}
+
+/**/
+
+main section {
+    display: flex;
+    color: #23272A;
+}
+
+main section h1 {
+    font-family: 'Open Sans';
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54.47px;
+    text-align: left;
+
+}
+
+main section p {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+}
+
+#section-1 {
+    padding: 16% 0 2% 15%;
+    height: 395px;
+    gap: 16px;
+}
+
+.texto-1 {
+
+    width: 348px;
+    height: 374px;
+}
+
+#section-2 {
+    padding: 2%;
+    height: 395px;
+    background: #F6F6F6;
+    padding-left: 15%;
+}
+
+.texto-2 {
+    width: 351px;
+    height: 212px;
+    padding-top: 5%;
+}
+
+#section-3 {
+    padding: 2%;
+    height: 395px;
+    gap: 16px;
+    padding-left: 15%;
+}
+
+.texto-3 {
+    width: 351px;
+    height: 234px;
+    padding-top: 8%;
+}
+
+#section-4 {
+    width: 100%;
+    height: 744px;
+
+    background: #F6F6F6;
+    padding: 3% 0 0 23%;
+    flex-direction: column;
+}
+
+.texto-4 {
+    width: 810px;
+    height: 44px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+#section-4 img {
+    margin-top: 10%;
+    width: 784px;
+    height: 508px;
+}
+
+#section-4 h1 {
+    margin-left: 10%;
+    text-align: center;
+    width: 608px;
+    height: 80px;
+    margin-bottom: 20px;
+    font-family: 'Luckiest Guy';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+#section-4 p {
+
+    margin-bottom: 30px;
 
 
 }
 
 /**/
-main {
-    background-color: yellow;
-}
-
 footer {
-    background-color: teal;
-
+    
+    background: #23272A ;
 }
