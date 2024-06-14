@@ -2,18 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
-
+    padding: 0;
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
 }
 
 header {
-    width: 100vw;
+
     height: 45vh;
     position: relative;
     text-align: center;
-
 }
 
 .header-content {
@@ -32,7 +31,6 @@ header {
 }
 
 .header-content h1 {
-
     width: 313px;
     height: 112px;
 
@@ -68,7 +66,7 @@ header img {
     height: 44px;
     gap: 16px;
     display: flex;
-    margin-left: 17%;
+   
 }
 
 .botao-1 {
@@ -163,7 +161,7 @@ main section p {
 }
 
 #section-4 {
-    width: 100%;
+
     height: 744px;
 
     background: #F6F6F6;
@@ -200,14 +198,16 @@ main section p {
 }
 
 #section-4 p {
-
     margin-bottom: 30px;
-
-
 }
 
 /**/
-footer {
-    
-    background: #23272A ;
+footer {        
+    height: 70px;   
+    padding: 40px 0px 40px 0px;   
+    background: #23272A;
 }
+footer img{
+    margin: 1.5%  0 0 42%;
+}
+    
