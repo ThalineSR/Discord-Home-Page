@@ -2,50 +2,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
-    padding: 0;
     display: flex;
     flex-direction: column;
-    background-color: #FFFFFF;
+   
 }
 
 header {
+   
+    background: url(../imagens/header.png) no-repeat center/cover;
+    width: 100vw;
+    height: 30rem;     
 
-    height: 45vh;
-    position: relative;
-    text-align: center;
 }
 
 .header-content {
-    width: 60%;
-    align-items: center;
-
-    position: absolute;
-    top: 1%;
-    left: 2%;
-
-    margin: 94px 261px 24px;
-
+    padding-top: 4%;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    align-items: center; 
+    gap: 3rem;
 }
 
 .header-content h1 {
-    width: 313px;
-    height: 112px;
+    width: 31%;
+    height: 25%;
 
     font-family: 'Luckiest Guy';
-    font-size: 56px;
+    font-size: 4em;
     font-weight: 400;
     line-height: 56px;
     text-align: center;
-
     color: #ffffff;
 }
 
 .header-content p {
-    width: 757px;
-    height: 66px;
+
+    width: 50em;
 
     font-family: 'Open Sans';
     font-size: 16px;
@@ -56,17 +48,20 @@ header {
     color: #ffffff;
 }
 
-header img {
-    max-width: 100%;
-    height: 459px;
-}
-
 .buttons {
     width: 502px;
     height: 44px;
     gap: 16px;
     display: flex;
-   
+    text-align: center;
+}
+
+.botao-1,
+.botao-2 {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
 }
 
 .botao-1 {
@@ -75,7 +70,7 @@ header img {
 
     border-radius: 28px;
     border: none;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     color: #23272A;
 }
 
@@ -89,20 +84,14 @@ header img {
     color: #FFFFFF;
 }
 
-.botao-1,
-.botao-2 {
-
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 21.79px;
-    text-align: center;
-}
-
 /**/
 
 main section {
+    margin-top: 6%;
     display: flex;
     color: #23272A;
+    place-content: center center;
+    gap: 2%;
 }
 
 main section h1 {
@@ -123,91 +112,63 @@ main section p {
 }
 
 #section-1 {
-    padding: 16% 0 2% 15%;
-    height: 395px;
-    gap: 16px;
+    margin-top: 3%;
+    background-color: #FFFFFF;
 }
 
 .texto-1 {
-
     width: 348px;
     height: 374px;
 }
 
 #section-2 {
-    padding: 2%;
-    height: 395px;
-    background: #F6F6F6;
-    padding-left: 15%;
+
+    background-color: #F6F6F6;
+
 }
 
 .texto-2 {
     width: 351px;
     height: 212px;
-    padding-top: 5%;
 }
 
 #section-3 {
-    padding: 2%;
-    height: 395px;
-    gap: 16px;
-    padding-left: 15%;
+    background-color: #FFFFFF;
+
 }
 
 .texto-3 {
     width: 351px;
     height: 234px;
-    padding-top: 8%;
+
 }
 
 #section-4 {
-
-    height: 744px;
-
-    background: #F6F6F6;
-    padding: 3% 0 0 23%;
+    background: #F6F6F6;   
     flex-direction: column;
 }
 
-.texto-4 {
-    width: 810px;
-    height: 44px;
+.texto-4 {    
+ 
     font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
 
-}
-
-#section-4 img {
-    margin-top: 10%;
-    width: 784px;
-    height: 508px;
 }
 
 #section-4 h1 {
-    margin-left: 10%;
-    text-align: center;
-    width: 608px;
-    height: 80px;
-    margin-bottom: 20px;
+
     font-family: 'Luckiest Guy';
     font-size: 40px;
-    font-weight: 400;
-    line-height: 40px;
+  
 }
-
-#section-4 p {
-    margin-bottom: 30px;
-}
-
 /**/
-footer {        
-    height: 70px;   
-    padding: 40px 0px 40px 0px;   
+footer {
+    height: 70px;
+    padding: 40px 0px 40px 0px;
     background: #23272A;
 }
-footer img{
-    margin: 1.5%  0 0 42%;
+
+footer img {
+    margin: 1.5% 0 0 42%;
 }
-    
