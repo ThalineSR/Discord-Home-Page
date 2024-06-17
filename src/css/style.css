@@ -92,6 +92,7 @@ section {
     place-content: center center;
     gap: 2%;
     width: 80%;
+    align-items: center;
 }
 
 section h1 {
