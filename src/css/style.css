@@ -237,9 +237,10 @@ footer img {
         flex-direction: column-reverse;
     }
     /**/
-    
+ 
     #section-4 img{
-        width: 95%;        
+        width: 90%;
+              
     }
     #section-4 h1{
         width: 100%;
